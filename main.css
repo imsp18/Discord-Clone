@@ -10,10 +10,10 @@
         @apply bg-white py-2 px-4 text-black text-lg rounded-3xl font-medium hover:text-primary hover:shadow-lg hover:shadow-black/30 transition duration-300;
     }
     .btn {
-        @apply py-4 px-8 rounded-full text-base lg:text-lg xl:text-xl hover:shadow-lg hover:shadow-black/20 transition duration-2s00;
+        @apply py-4 px-8 rounded-full text-base lg:text-lg xl:text-xl hover:shadow-lg hover:shadow-black/20 transition duration-200;
     }
     .btn-white {
-        @apply bg-white text-black;
+        @apply bg-white text-black hover:text-primary;
     }
     .btn-black {
         @apply bg-black text-white;
