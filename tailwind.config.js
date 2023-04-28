@@ -2,6 +2,10 @@
 module.exports = {
   content: ["./dist/**/*.{html,js}"],
   theme: {
+    fontFamily: {
+      "blackhans": ['Black Han Sans', 'sans-serif'],
+      "opensans": ['Open Sans', 'sans-serif'],
+    },
     container: {
       center: true,
       padding: {
